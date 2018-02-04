@@ -1,0 +1,31 @@
+1. 这是一个 使用 koa 搭建服务的一个 demo，可以下载文档后直接使用，其中 koaServices 文件提供了多个场景的示例。
+2. 本系统使用到的 npm 库有一下几个
+
+    * koa 搭建 koa 服务的基本库
+    * koa-router 用于提供 路由 服务的库
+    * koa-logger 用于提供 logger日志 输出的 koa 中间件
+    * koa-static 提供 静态资源访问的统一处理服务
+    * koa-compose 可以将多个 app.use()  需要使用的中间件，进行统一管理
+    * koa-body 用于处理 http 请求的模块，扩展了获取 post 的 request.bdoy 等数据
+    * keygrip koa用于设置cookies签名
+    * babel-preset-es2015 用于支持node 的es6 语法，需要配合主文件目录下的 .babelrc 文件一起使用
+
+3. 后续需要持续添加的应用实例
+
+    * koa-mongo
+    * koa-redis-pool
+    * nodemon 用于重启node服务
+    * koa-views koa 试图渲染，类似 express 的render写法       ctx.render("index.html",{title:"tt"});
+    * log4js-node 定制化的本地输出log文件的话
+
+4. 集成项目环境 koa-generator， 可以很方便的创建 koa 项目，使用koa-generator生成koa2项目
+
+5. 相关文章链接: https://www.jianshu.com/p/6b816c609669
+
+6. 链接
+
+    目前的koa 默认为 koa2
+
+    koa 官方网站 https://koa.bootcss.com/#response
+    koa git地址 https://github.com/koajs/koa
+    koa 官方 使用示例地址 https://github.com/koajs/examples

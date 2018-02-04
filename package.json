@@ -1,0 +1,30 @@
+{
+  "name": "server-demo",
+  "version": "1.0.0",
+  "description": "a koa server demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app.js"
+  },
+  "keywords": [
+    "koa",
+    "server",
+    "demo"
+  ],
+  "author": "nanhang",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "keygrip": "^1.0.2",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-compose": "^4.0.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "npm": "^5.6.0"
+  }
+}
