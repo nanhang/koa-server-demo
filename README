@@ -1,3 +1,7 @@
+下载项目后使用 npm start 服务， 默认端口号为 3000
+
+目前的koa 默认为 koa2
+
 1. 这是一个 使用 koa 搭建服务的一个 demo，可以下载文档后直接使用，其中 koaServices 文件提供了多个场景的示例。
 2. 本系统使用到的 npm 库有一下几个
 
@@ -23,8 +27,6 @@
 5. 相关文章链接: https://www.jianshu.com/p/6b816c609669
 
 6. 链接
-
-    目前的koa 默认为 koa2
 
     koa 官方网站 https://koa.bootcss.com/#response
     koa git地址 https://github.com/koajs/koa

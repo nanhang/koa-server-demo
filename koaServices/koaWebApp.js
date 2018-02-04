@@ -63,7 +63,7 @@ const webAppServer =  function(app) {
     // curl -F upload=@/Users/hang/Desktop/timg.jpg http://127.0.0.1:3300
     // /Users/hang/Desktop/timg.jpg 表示需要上传的文件
 
-    app.use(preFileUpload);
+    // app.use(preFileUpload);
 }
 
 export default webAppServer;
