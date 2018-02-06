@@ -14,13 +14,13 @@ const app = new koa();
 // app.use()用来加载中间件
 // 中间件必须在 ctx 返回body 之前
 
-middleware(app);      
+// middleware(app);      
 
-preErrorServer(app);    // 错误处理, 这个也是中间件
+// preErrorServer(app);    // 错误处理, 这个也是中间件
 
 webAppServer(app);      // web app 应用实例 这个也是中间件
 
-koaRouterServer(app);     // koa-router 服务
+// koaRouterServer(app);     // koa-router 服务
 
 staticServer(app);        // koa 静态资源服务
 

@@ -34,13 +34,14 @@ const webAppServer =  function(app) {
         const body = ctx.request.body;
         // if (!body.name) ctx.throw(400, '.name required');
         console.log(body);
-        ctx.body = { name: body.name };
+        // ctx.body = { name: body.name };
+        ctx.body = "1231231";
     }
 
     // 附加：发送 post 请求的脚本命令
     // curl -X POST --data "name=Jack" 127.0.0.1:3300
 
-    // app.use(preFormData);
+    app.use(preFormData);
     
 
     // 案例三： 使用 koa 处理文件上传功能
